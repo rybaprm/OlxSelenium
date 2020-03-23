@@ -16,15 +16,15 @@
   
     _env\Scripts\activate_
   
- 3. Install selenium:
- 
-    _pip install selenium_
-  
-    or get project files from 'Git' and run:
+ 3. Get project files from 'GitHub.com':
     
-    _pip install requirements.txt_
+    _git clone https://github.com/rybaprm/OlxSelenium_ 
  
- 4. Download Selenium WebDriver for Firefox:
+ 4. Install all requirements:
+ 
+    _pip install -r requirements.txt_
+ 
+ 5. Download Selenium WebDriver for Firefox:
  
     _https://github.com/mozilla/geckodriver/releases_
     
@@ -32,13 +32,13 @@
     
     _https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip_
 
- 5. Unpack archive to directory with this project. The project directory should
+ 6. Unpack archive to directory with this project. The project directory should
 consist of such elements:
     - 'directory of project':
         - 'env'                 - directory of virtual environment;
         - 'spider_olx.py'       - python file with class declared class 'OlxSpider' (search spider);
         - 'run_spider.py'       - python file in which call class 'OlxSpider' and some method of this class;
-	    - 'geckodriver.exe'	    - download and unpack WebDriver for Firefox.
+	- 'geckodriver.exe'	    - download and unpack WebDriver for Firefox.
 
 6. For parse ad from site 'olx.ua' by search link run in terminal with
  activated virtual environment 'env' command:
