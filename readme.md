@@ -38,7 +38,7 @@ consist of such elements:
         - 'env'                 - directory of virtual environment;
         - 'spider_olx.py'       - python file with class declared class 'OlxSpider' (search spider);
         - 'run_spider.py'       - python file in which call class 'OlxSpider' and some method of this class;
-	- 'geckodriver.exe'	    - download and unpack WebDriver for Firefox.
+		- 'geckodriver.exe'	    - download and unpack WebDriver for Firefox.
 
 6. For parse ad from site 'olx.ua' by search link run in terminal with
  activated virtual environment 'env' command:
